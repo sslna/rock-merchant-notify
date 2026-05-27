@@ -1,0 +1,23 @@
+{
+  "source": "onebiji_html",
+  "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
+  "fetched_at": "2026-05-27T16:14:54.659165+08:00",
+  "slot": {
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
+  },
+  "items": [
+    {
+      "slot": 1,
+      "name": "机械粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1779883200,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/1/1c/lcsenwszmlkz002ai6du9f32tbfpi19.png/100px-100138.png"
+    }
+  ]
+}
