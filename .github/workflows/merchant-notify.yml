@@ -2,7 +2,8 @@ name: Merchant Notify
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0-30/5 8,12,16,20 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
     inputs:
       force_run:
@@ -23,7 +24,7 @@ jobs:
       MERCHANT_URL: "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0"
       TIMEZONE: "Asia/Shanghai"
       REFRESH_TIMES: "08:00,12:00,16:00,20:00"
-      REFRESH_WINDOW_MINUTES: "20"
+      REFRESH_WINDOW_MINUTES: "30"
       WATCH_ITEMS: ""
       NOTIFY_ON_FIRST_RUN: "true"
       FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force_run || 'false' }}
