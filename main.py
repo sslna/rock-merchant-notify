@@ -334,6 +334,22 @@ def main() -> int:
     try:
         config = load_config()
         current_time = now_in_zone(config.timezone)
+        print(
+            "Config loaded:",
+            json.dumps(
+                {
+                    "timezone": config.timezone,
+                    "refresh_times": config.refresh_times,
+                    "refresh_window_minutes": config.refresh_window_minutes,
+                    "force_run": config.force_run,
+                    "notify_on_first_run": config.notify_on_first_run,
+                    "ntfy_server": config.ntfy_server,
+                    "ntfy_topic": config.ntfy_topic,
+                },
+                ensure_ascii=False,
+            ),
+        )
+        print(f"Current time: {current_time.isoformat()}")
         if not should_run(config, current_time):
             print("Skipping run because current time is outside the refresh window.")
             return 0
@@ -342,12 +358,16 @@ def main() -> int:
         parsed = parse_items(html)
         payload = build_payload(config, parsed, current_time)
         previous = load_previous_state(config.state_path)
+        print(
+            f"Parsed slot {payload['slot']['label']} with {len(payload['items'])} items."
+        )
 
         if not has_changed(previous, payload):
             print("Merchant data has not changed.")
             return 0
 
         is_first_run = previous is None
+        print(f"Previous state exists: {not is_first_run}")
         title, message, matched_items = format_message(payload, config.watch_items)
 
         if not is_first_run or config.notify_on_first_run:

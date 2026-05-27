@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
+    inputs:
+      force_run:
+        description: "Ignore refresh window and run immediately"
+        required: false
+        default: "true"
 
 permissions:
   contents: write
@@ -21,6 +26,7 @@ jobs:
       REFRESH_WINDOW_MINUTES: "20"
       WATCH_ITEMS: ""
       NOTIFY_ON_FIRST_RUN: "true"
+      FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force_run || 'false' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
