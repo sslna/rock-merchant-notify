@@ -23,10 +23,10 @@
 
 工作流只会在下面这些时间点自动运行：
 
-- `08:00` 到 `08:30`
-- `12:00` 到 `12:30`
-- `16:00` 到 `16:30`
-- `20:00` 到 `20:30`
+- `07:50` 到 `08:50`
+- `11:50` 到 `12:50`
+- `15:50` 到 `16:50`
+- `19:50` 到 `20:50`
 
 在每个时间窗口内，GitHub Actions 会大约每 5 分钟触发一次。
 
@@ -37,9 +37,9 @@
 默认配置：
 
 - `REFRESH_TIMES=08:00,12:00,16:00,20:00`
-- `REFRESH_WINDOW_MINUTES=30`
+- `REFRESH_WINDOW_MINUTES=60`
 
-也就是说，即使 GitHub Actions 成功触发，脚本也只会在这些刷新点后的半小时内真正执行抓取逻辑。
+也就是说，即使 GitHub Actions 成功触发，脚本也只会在这些刷新点前后约 1 小时的保护窗口内真正执行抓取逻辑。
 
 ### 手动触发
 
@@ -60,7 +60,7 @@
 - `MERCHANT_URL`：默认就是当前页面源
 - `TIMEZONE`：默认 `Asia/Shanghai`
 - `REFRESH_TIMES`：默认 `08:00,12:00,16:00,20:00`
-- `REFRESH_WINDOW_MINUTES`：默认 `30`
+- `REFRESH_WINDOW_MINUTES`：默认 `60`
 - `WATCH_ITEMS`：逗号分隔的关注商品名
 - `NOTIFY_ON_FIRST_RUN`：默认 `true`
 - `FORCE_RUN`：手动调试时可设为 `true`
@@ -93,5 +93,5 @@ GitHub Actions 会把这两个文件的变化自动提交回仓库，这样后�
 ## 常见说明
 
 - GitHub Actions 的 `schedule` 不是绝对准点的，高峰时段可能会延迟几分钟
-- 所以当前方案是“时间窗口内多次触发 + 脚本内部再判断一次”
+- 所以当前方案是“刷新前后宽窗口多次触发 + 脚本内部再判断一次”
 - 如果你没有收到通知，先看 Actions 日志里 `Run merchant notifier` 这一步的输出
