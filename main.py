@@ -14,6 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
+# 远行商人监控脚本使用的默认页面源和刷新时间配置。
 DEFAULT_MERCHANT_URL = (
     "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0"
 )
@@ -44,6 +45,7 @@ class MerchantError(Exception):
 
 
 def env_or_default(name: str, default: str) -> str:
+    # 把空环境变量也当作“未提供”处理，这样部分 GitHub Secrets 可以保持可选。
     value = os.getenv(name)
     if value is None:
         return default
@@ -87,6 +89,7 @@ def now_in_zone(timezone_name: str) -> datetime:
 
 
 def should_run(config: Config, current_time: datetime) -> bool:
+    # 手动触发工作流时允许跳过刷新时间窗口，方便随时做联调测试。
     if config.force_run:
         return True
 
@@ -108,6 +111,7 @@ def parse_hhmm(value: str) -> time:
 
 
 def fetch_page(config: Config) -> str:
+    # 使用常见浏览器 UA，尽量降低被目标站点拦截的概率。
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -129,6 +133,7 @@ def parse_current_slot(soup: BeautifulSoup) -> dict[str, Any]:
     if not time_items:
         raise MerchantError("Failed to find time slots in merchant page")
 
+    # 页面会用 "on" class 标识当前正在生效的时间段。
     for index, element in enumerate(time_items, start=1):
         classes = element.get("class", [])
         if "on" not in classes:
@@ -160,6 +165,7 @@ def parse_items(html: str) -> dict[str, Any]:
     selector = f".shop-list li.show_{slot['index']}"
     raw_items = soup.select(selector)
 
+    # 每个商品卡片里会解析出名称、价格和限购数量等关键字段。
     items: list[dict[str, Any]] = []
     for slot_position, element in enumerate(raw_items, start=1):
         classes = element.get("class", [])
@@ -246,6 +252,7 @@ def load_previous_state(path: Path) -> dict[str, Any] | None:
 
 
 def comparable_payload(data: dict[str, Any]) -> dict[str, Any]:
+    # 这里只比较“是否算刷新”真正相关的字段，避免无关元数据导致误报。
     return {
         "slot": data["slot"],
         "items": [
@@ -288,8 +295,8 @@ def format_message(data: dict[str, Any], watch_items: list[str]) -> tuple[str, s
 
 def send_ntfy(config: Config, title: str, message: str, matched_items: list[str]) -> None:
     url = f"{config.ntfy_server}/{config.ntfy_topic}"
+    # 请求头只放 ASCII 安全内容，中文标题和正文放到消息体里，避免编码报错。
     headers = {
-        "Title": title,
         "Tags": "shopping_bags,video_game",
         "Priority": "default",
     }
@@ -299,9 +306,10 @@ def send_ntfy(config: Config, title: str, message: str, matched_items: list[str]
     if config.ntfy_token:
         headers["Authorization"] = f"Bearer {config.ntfy_token}"
 
+    payload = f"{title}\n{message}"
     response = requests.post(
         url,
-        data=message.encode("utf-8"),
+        data=payload.encode("utf-8"),
         headers=headers,
         timeout=config.request_timeout_seconds,
     )
@@ -312,6 +320,7 @@ def save_state(config: Config, data: dict[str, Any]) -> None:
     config.state_path.parent.mkdir(parents=True, exist_ok=True)
     config.history_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # latest.json 用于下次做变化比对，history.jsonl 用于保留完整历史记录。
     config.state_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -362,6 +371,7 @@ def main() -> int:
             f"Parsed slot {payload['slot']['label']} with {len(payload['items'])} items."
         )
 
+        # 如果商品数据没变化，就不重复推送，避免手机通知刷屏。
         if not has_changed(previous, payload):
             print("Merchant data has not changed.")
             return 0
@@ -370,6 +380,7 @@ def main() -> int:
         print(f"Previous state exists: {not is_first_run}")
         title, message, matched_items = format_message(payload, config.watch_items)
 
+        # 首次运行也允许发送通知，方便快速验证整条链路是否打通。
         if not is_first_run or config.notify_on_first_run:
             send_ntfy(config, title, message, matched_items)
             print("Notification sent.")
