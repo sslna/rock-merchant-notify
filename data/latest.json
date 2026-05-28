@@ -1,33 +1,43 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-05-28T15:43:38.634819+08:00",
+  "fetched_at": "2026-05-28T19:24:42.352349+08:00",
   "slot": {
-    "index": 2,
-    "label": "12:00-16:00",
-    "start": "12:00",
-    "end": "16:00"
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "火系血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1779955200,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/58/qcen9i07u68symzdrga5qcli2wq6ws3.png/100px-Xuemai_huo.png"
+      "name": "蓝晶碧玺",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1779969600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
     },
     {
       "slot": 2,
-      "name": "神奇的蛋",
-      "price_text": "36000",
-      "price_value": 36000,
-      "limit_text": "限购5",
-      "limit_value": 5,
-      "end_timestamp": 1779955200,
-      "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
+      "name": "紫莲刚玉",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1779969600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
+    },
+    {
+      "slot": 3,
+      "name": "火系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1779969600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a6/a5v60zfm9ivyri166tias4efjnp5vyt.png/100px-100122.png"
     }
   ]
 }
