@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-06-20T15:38:39.929690+08:00",
+  "fetched_at": "2026-06-21T16:17:14.783768+08:00",
   "slot": {
-    "index": 2,
-    "label": "12:00-16:00",
-    "start": "12:00",
-    "end": "16:00"
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
   },
   "items": [
     {
@@ -46,18 +46,38 @@
       "price_value": 3000,
       "limit_text": "限购200",
       "limit_value": 200,
-      "end_timestamp": 1781971200,
+      "end_timestamp": 1782057600,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/d/d5/i0k2vx3nsjzsbbpfzfbwf3dlin3ixn0.png/100px-Img_guangheqiu.png"
     },
     {
       "slot": 5,
+      "name": "黑晶琉璃",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1782043200,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
+    },
+    {
+      "slot": 6,
       "name": "紫莲刚玉",
       "price_text": "1000",
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1781942400,
+      "end_timestamp": 1782043200,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
+    },
+    {
+      "slot": 7,
+      "name": "机械血脉秘药",
+      "price_text": "16w",
+      "price_value": 160000,
+      "limit_text": "限购3",
+      "limit_value": 3,
+      "end_timestamp": 1782043200,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/56/12jc1mzlz7nhgnterqdk6bgm6rofibn.png/100px-Xuemai_gang.png"
     }
   ]
 }
