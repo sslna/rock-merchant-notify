@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-07-11T20:40:15.501845+08:00",
+  "fetched_at": "2026-07-12T20:38:52.291325+08:00",
   "slot": {
     "index": 4,
     "label": "20:00-24:00",
@@ -46,28 +46,8 @@
       "price_value": 3000,
       "limit_text": "限购200",
       "limit_value": 200,
-      "end_timestamp": 1783785600,
+      "end_timestamp": 1783872000,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/0/0d/k1hb59umk1sisjh8cev5bvyzvavezvb.png/100px-Img_jueyuanqiu.png"
-    },
-    {
-      "slot": 5,
-      "name": "蓝晶碧玺",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1783785600,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
-    },
-    {
-      "slot": 6,
-      "name": "幽系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1783785600,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/20/okbnyp4feg52iaxuijvjzv6wodaqjmi.png/100px-100126.png"
     }
   ]
 }
