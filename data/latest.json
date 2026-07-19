@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-07-18T20:38:49.062548+08:00",
+  "fetched_at": "2026-07-19T20:36:57.126397+08:00",
   "slot": {
     "index": 4,
     "label": "20:00-24:00",
@@ -36,7 +36,7 @@
       "price_value": 3000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1784390400,
+      "end_timestamp": 1784476800,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png"
     },
     {
@@ -46,11 +46,21 @@
       "price_value": 3000,
       "limit_text": "限购200",
       "limit_value": 200,
-      "end_timestamp": 1784390400,
+      "end_timestamp": 1784476800,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/0/0d/k1hb59umk1sisjh8cev5bvyzvavezvb.png/100px-Img_jueyuanqiu.png"
     },
     {
       "slot": 5,
+      "name": "黑晶琉璃",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1784476800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
+    },
+    {
+      "slot": 6,
       "name": "能力钥匙",
       "price_text": "16w",
       "price_value": 160000,
@@ -60,24 +70,14 @@
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/2d/749ek9zbh79fvll7f5vtpxa33dz3mze.png/100px-100009.png"
     },
     {
-      "slot": 6,
-      "name": "光系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1784390400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9d/t3udkq5fg8o3je088pcjktersn9wfrt.png/100px-100124.png"
-    },
-    {
       "slot": 7,
-      "name": "龙系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1784390400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/ac/jhbsu0fzhq55ivqu89qz81366owvkki.png/100px-100131.png"
+      "name": "武系血脉秘药",
+      "price_text": "16w",
+      "price_value": 160000,
+      "limit_text": "限购3",
+      "limit_value": 3,
+      "end_timestamp": 1784476800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/6/60/07uvni7t86lah2a9c219z9x8smkdnzj.png/100px-Xuemai_wu.png"
     }
   ]
 }
