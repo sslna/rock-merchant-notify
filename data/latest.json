@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-08T16:21:28.142544+08:00",
+  "fetched_at": "2026-08-08T20:02:40.916305+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 4,
+    "label": "20:00-24:00",
+    "start": "20:00",
+    "end": "24:00"
   },
   "items": [
     {
@@ -51,13 +51,13 @@
     },
     {
       "slot": 5,
-      "name": "萌系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1786190400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/26/58llleh28pa33kxom2cub80nnf0y9zd.png/100px-100137.png"
+      "name": "神奇的蛋",
+      "price_text": "36000",
+      "price_value": 36000,
+      "limit_text": "限购5",
+      "limit_value": 5,
+      "end_timestamp": 1786204800,
+      "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
     }
   ]
 }
