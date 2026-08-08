@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-08T12:39:25.771248+08:00",
+  "fetched_at": "2026-08-08T16:21:28.142544+08:00",
   "slot": {
-    "index": 2,
-    "label": "12:00-16:00",
-    "start": "12:00",
-    "end": "16:00"
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
   },
   "items": [
     {
@@ -51,33 +51,13 @@
     },
     {
       "slot": 5,
-      "name": "黑晶琉璃",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1786176000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
-    },
-    {
-      "slot": 6,
-      "name": "紫莲刚玉",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1786176000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
-    },
-    {
-      "slot": 7,
-      "name": "恶系粉尘",
+      "name": "萌系粉尘",
       "price_text": "500",
       "price_value": 500,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1786176000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/e/ec/mbugzr13ol6m9ay5focjw9kctt14g5h.png/100px-100125.png"
+      "end_timestamp": 1786190400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/26/58llleh28pa33kxom2cub80nnf0y9zd.png/100px-100137.png"
     }
   ]
 }
