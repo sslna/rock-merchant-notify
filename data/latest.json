@@ -1,26 +1,16 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-07T20:27:59.245637+08:00",
+  "fetched_at": "2026-08-08T08:30:31.443049+08:00",
   "slot": {
-    "index": 4,
-    "label": "20:00-24:00",
-    "start": "20:00",
-    "end": "24:00"
+    "index": 1,
+    "label": "08:00-12:00",
+    "start": "08:00",
+    "end": "12:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "调温球",
-      "price_text": "3000",
-      "price_value": 3000,
-      "limit_text": "限购200",
-      "limit_value": 200,
-      "end_timestamp": 1786118400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/0/0d/2fx8i8qxb62s1sj8dn08h9vhsnsim1t.png/100px-Img_tiaowenqiu.png"
-    },
-    {
-      "slot": 2,
       "name": "残缺魔镜",
       "price_text": "48w",
       "price_value": 480000,
@@ -30,7 +20,7 @@
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/1/10/nssw03fprximwkgzjqdaq8r8pq3q3le.png/100px-100716.png"
     },
     {
-      "slot": 3,
+      "slot": 2,
       "name": "适格钥匙",
       "price_text": "32w",
       "price_value": 320000,
@@ -40,7 +30,7 @@
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/1/11/6l0tqz9gytrn8r10gk5bgcj4rxnfx57.png/100px-100714.png"
     },
     {
-      "slot": 4,
+      "slot": 3,
       "name": "能力钥匙",
       "price_text": "16w",
       "price_value": 160000,
@@ -50,24 +40,34 @@
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/2d/749ek9zbh79fvll7f5vtpxa33dz3mze.png/100px-100009.png"
     },
     {
-      "slot": 5,
-      "name": "紫莲刚玉",
+      "slot": 4,
+      "name": "黑晶琉璃",
       "price_text": "1000",
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1786118400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
+      "end_timestamp": 1786161600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
+    },
+    {
+      "slot": 5,
+      "name": "黄石榴石",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1786161600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png"
     },
     {
       "slot": 6,
-      "name": "龙系血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1786118400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/88wm27imouqbkxv6d9tlof24xs20nrv.png/100px-Xuemai_long.png"
+      "name": "调温球",
+      "price_text": "3000",
+      "price_value": 3000,
+      "limit_text": "限购200",
+      "limit_value": 200,
+      "end_timestamp": 1786204800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/0/0d/2fx8i8qxb62s1sj8dn08h9vhsnsim1t.png/100px-Img_tiaowenqiu.png"
     }
   ]
 }
