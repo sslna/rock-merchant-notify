@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-08T20:02:40.916305+08:00",
+  "fetched_at": "2026-08-09T08:03:03.244876+08:00",
   "slot": {
-    "index": 4,
-    "label": "20:00-24:00",
-    "start": "20:00",
-    "end": "24:00"
+    "index": 1,
+    "label": "08:00-12:00",
+    "start": "08:00",
+    "end": "12:00"
   },
   "items": [
     {
@@ -41,23 +41,43 @@
     },
     {
       "slot": 4,
+      "name": "黑晶琉璃",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1786248000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
+    },
+    {
+      "slot": 5,
       "name": "调温球",
       "price_text": "3000",
       "price_value": 3000,
       "limit_text": "限购200",
       "limit_value": 200,
-      "end_timestamp": 1786204800,
+      "end_timestamp": 1786291200,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/0/0d/2fx8i8qxb62s1sj8dn08h9vhsnsim1t.png/100px-Img_tiaowenqiu.png"
     },
     {
-      "slot": 5,
-      "name": "神奇的蛋",
-      "price_text": "36000",
-      "price_value": 36000,
-      "limit_text": "限购5",
-      "limit_value": 5,
-      "end_timestamp": 1786204800,
-      "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
+      "slot": 6,
+      "name": "冰系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1786248000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a9/no0rhm0wky3e406wni3ef13z6zvfxw1.png/100px-100130.png"
+    },
+    {
+      "slot": 7,
+      "name": "幻系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1786248000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/24/sgt0lc5llwfvlcmjhr1awhwq6st35fj.png/100px-100139.png"
     }
   ]
 }
