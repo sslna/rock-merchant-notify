@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-15T16:12:04.102450+08:00",
+  "fetched_at": "2026-08-15T20:11:45.596812+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 4,
+    "label": "20:00-24:00",
+    "start": "20:00",
+    "end": "24:00"
   },
   "items": [
     {
@@ -51,13 +51,13 @@
     },
     {
       "slot": 5,
-      "name": "幻系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1786795200,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/24/sgt0lc5llwfvlcmjhr1awhwq6st35fj.png/100px-100139.png"
+      "name": "魔力果",
+      "price_text": "6000",
+      "price_value": 6000,
+      "limit_text": "限购20",
+      "limit_value": 20,
+      "end_timestamp": 1786809600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
     }
   ]
 }
