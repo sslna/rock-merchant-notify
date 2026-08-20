@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-20T16:18:13.101029+08:00",
+  "fetched_at": "2026-08-20T20:02:12.230084+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 4,
+    "label": "20:00-24:00",
+    "start": "20:00",
+    "end": "24:00"
   },
   "items": [
     {
@@ -16,28 +16,8 @@
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1787227200,
+      "end_timestamp": 1787241600,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
-    },
-    {
-      "slot": 2,
-      "name": "紫莲刚玉",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1787227200,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
-    },
-    {
-      "slot": 3,
-      "name": "神奇的蛋",
-      "price_text": "36000",
-      "price_value": 36000,
-      "limit_text": "限购5",
-      "limit_value": 5,
-      "end_timestamp": 1787227200,
-      "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
     }
   ]
 }
