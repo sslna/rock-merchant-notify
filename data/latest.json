@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-22T16:00:51.612610+08:00",
+  "fetched_at": "2026-08-22T16:13:41.861100+08:00",
   "slot": {
     "index": 3,
     "label": "16:00-20:00",
@@ -58,6 +58,16 @@
       "limit_value": 100,
       "end_timestamp": 1787414400,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png"
+    },
+    {
+      "slot": 6,
+      "name": "草系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787400000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/3/32/2k88qbruf464xxyf02grnmkvun59h0c.png/100px-100121.png"
     }
   ]
 }
