@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-23T16:01:20.674499+08:00",
+  "fetched_at": "2026-08-23T16:14:10.252450+08:00",
   "slot": {
     "index": 3,
     "label": "16:00-20:00",
@@ -58,6 +58,26 @@
       "limit_value": 100,
       "end_timestamp": 1787500800,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png"
+    },
+    {
+      "slot": 6,
+      "name": "蓝晶碧玺",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787486400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
+    },
+    {
+      "slot": 7,
+      "name": "电系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787486400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/2f/2sux0g15uo8at77bwpoxrg32rv3l4dz.png/100px-100132.png"
     }
   ]
 }
