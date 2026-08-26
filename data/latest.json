@@ -1,43 +1,33 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-26T16:23:46.913084+08:00",
+  "fetched_at": "2026-08-26T20:03:50.002355+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 4,
+    "label": "20:00-24:00",
+    "start": "20:00",
+    "end": "24:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "黑晶琉璃",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1787745600,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
+      "name": "神奇的蛋",
+      "price_text": "36000",
+      "price_value": 36000,
+      "limit_text": "限购5",
+      "limit_value": 5,
+      "end_timestamp": 1787760000,
+      "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
     },
     {
       "slot": 2,
-      "name": "火系粉尘",
+      "name": "武系粉尘",
       "price_text": "500",
       "price_value": 500,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1787745600,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a6/a5v60zfm9ivyri166tias4efjnp5vyt.png/100px-100122.png"
-    },
-    {
-      "slot": 3,
-      "name": "冰系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1787745600,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a9/no0rhm0wky3e406wni3ef13z6zvfxw1.png/100px-100130.png"
+      "end_timestamp": 1787760000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/23/su3uy9wfjwvx3ifjaia3l88j2kjr5mg.png/100px-100135.png"
     }
   ]
 }
