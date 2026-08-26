@@ -1,43 +1,43 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-26T12:24:07.088917+08:00",
+  "fetched_at": "2026-08-26T16:23:46.913084+08:00",
   "slot": {
-    "index": 2,
-    "label": "12:00-16:00",
-    "start": "12:00",
-    "end": "16:00"
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "国王球",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1787731200,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/2e/jygbfxpdbup5weqy4zaqnyaw2fcfyrq.png/100px-100255.png"
-    },
-    {
-      "slot": 2,
       "name": "黑晶琉璃",
       "price_text": "1000",
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1787731200,
+      "end_timestamp": 1787745600,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
     },
     {
+      "slot": 2,
+      "name": "火系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787745600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a6/a5v60zfm9ivyri166tias4efjnp5vyt.png/100px-100122.png"
+    },
+    {
       "slot": 3,
-      "name": "魔力果",
-      "price_text": "6000",
-      "price_value": 6000,
-      "limit_text": "限购20",
-      "limit_value": 20,
-      "end_timestamp": 1787731200,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
+      "name": "冰系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787745600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a9/no0rhm0wky3e406wni3ef13z6zvfxw1.png/100px-100130.png"
     }
   ]
 }
