@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-08-28T15:05:05.067691+08:00",
+  "fetched_at": "2026-08-29T12:19:37.692506+08:00",
   "slot": {
     "index": 2,
     "label": "12:00-16:00",
@@ -41,23 +41,43 @@
     },
     {
       "slot": 4,
-      "name": "黄石榴石",
+      "name": "淘沙球",
+      "price_text": "3000",
+      "price_value": 3000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1788019200,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png"
+    },
+    {
+      "slot": 5,
+      "name": "紫莲刚玉",
       "price_text": "1000",
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1787904000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png"
+      "end_timestamp": 1787990400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
     },
     {
-      "slot": 5,
-      "name": "淘沙球",
-      "price_text": "3000",
-      "price_value": 3000,
-      "limit_text": "限购400",
-      "limit_value": 400,
-      "end_timestamp": 1787932800,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png"
+      "slot": 6,
+      "name": "奇异血脉秘药",
+      "price_text": "16w",
+      "price_value": 160000,
+      "limit_text": "限购3",
+      "limit_value": 3,
+      "end_timestamp": 1787990400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/ab/eg7zj03u487p1l3f91z499w1nxdzac1.png/100px-Xuemai_qiyixuemai.png"
+    },
+    {
+      "slot": 7,
+      "name": "武系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1787990400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/23/su3uy9wfjwvx3ifjaia3l88j2kjr5mg.png/100px-100135.png"
     }
   ]
 }
