@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-09-01T16:54:57.952525+08:00",
+  "fetched_at": "2026-09-02T16:08:23.838006+08:00",
   "slot": {
     "index": 3,
     "label": "16:00-20:00",
@@ -11,13 +11,13 @@
   "items": [
     {
       "slot": 1,
-      "name": "幻系粉尘",
-      "price_text": "500",
-      "price_value": 500,
+      "name": "蓝晶碧玺",
+      "price_text": "1000",
+      "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1788264000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/24/sgt0lc5llwfvlcmjhr1awhwq6st35fj.png/100px-100139.png"
+      "end_timestamp": 1788350400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
     }
   ]
 }
