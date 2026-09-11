@@ -1,33 +1,33 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-09-10T20:59:15.087967+08:00",
+  "fetched_at": "2026-09-11T16:18:57.025934+08:00",
   "slot": {
-    "index": 4,
-    "label": "20:00-24:00",
-    "start": "20:00",
-    "end": "24:00"
+    "index": 3,
+    "label": "16:00-20:00",
+    "start": "16:00",
+    "end": "20:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "火系血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1789056000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/58/qcen9i07u68symzdrga5qcli2wq6ws3.png/100px-Xuemai_huo.png"
+      "name": "暗星球",
+      "price_text": "3000",
+      "price_value": 3000,
+      "limit_text": "限购200",
+      "limit_value": 200,
+      "end_timestamp": 1789142400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png"
     },
     {
       "slot": 2,
-      "name": "普通粉尘",
-      "price_text": "500",
-      "price_value": 500,
+      "name": "蓝晶碧玺",
+      "price_text": "1000",
+      "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1789056000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f6/ls7hsygs9epizddf1xo4q9b2iu1dduu.png/100px-100127.png"
+      "end_timestamp": 1789128000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png"
     }
   ]
 }
