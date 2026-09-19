@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-09-18T16:30:06.044631+08:00",
+  "fetched_at": "2026-09-19T16:17:47.686402+08:00",
   "slot": {
     "index": 3,
     "label": "16:00-20:00",
@@ -16,28 +16,18 @@
       "price_value": 3000,
       "limit_text": "限购200",
       "limit_value": 200,
-      "end_timestamp": 1789747200,
+      "end_timestamp": 1789833600,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/97/t58zrpfzxopvj3ke3oi3v57mf6k05s0.png/100px-Img_miwuqiu.png"
     },
     {
       "slot": 2,
-      "name": "翼系血脉秘药",
+      "name": "萌系血脉秘药",
       "price_text": "16w",
       "price_value": 160000,
       "limit_text": "限购3",
       "limit_value": 3,
-      "end_timestamp": 1789732800,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/1/15/t49aceulmmb7q8ohahmkyqvrdl2qdkz.png/100px-Xuemai_yi.png"
-    },
-    {
-      "slot": 3,
-      "name": "武系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1789732800,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/2/23/su3uy9wfjwvx3ifjaia3l88j2kjr5mg.png/100px-100135.png"
+      "end_timestamp": 1789819200,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/a9/f93cxq6r5qxkkt6cs8hc2jaecsj3yy9.png/100px-Xuemai_meng.png"
     }
   ]
 }
