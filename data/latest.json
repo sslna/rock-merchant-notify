@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-10-08T11:09:18.844352+08:00",
+  "fetched_at": "2026-10-09T11:04:56.906380+08:00",
   "slot": {
     "index": 1,
     "label": "08:00-12:00",
@@ -11,13 +11,43 @@
   "items": [
     {
       "slot": 1,
+      "name": "暗星球",
+      "price_text": "3000",
+      "price_value": 3000,
+      "limit_text": "限购200",
+      "limit_value": 200,
+      "end_timestamp": 1791561600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png"
+    },
+    {
+      "slot": 2,
+      "name": "淘沙球",
+      "price_text": "3000",
+      "price_value": 3000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1791561600,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png"
+    },
+    {
+      "slot": 3,
       "name": "神奇的蛋",
       "price_text": "36000",
       "price_value": 36000,
       "limit_text": "限购5",
       "limit_value": 5,
-      "end_timestamp": 1791432000,
+      "end_timestamp": 1791518400,
       "image_url": "//img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png"
+    },
+    {
+      "slot": 4,
+      "name": "光系粉尘",
+      "price_text": "500",
+      "price_value": 500,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1791518400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9d/t3udkq5fg8o3je088pcjktersn9wfrt.png/100px-100124.png"
     }
   ]
 }
