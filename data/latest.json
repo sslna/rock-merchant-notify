@@ -1,33 +1,23 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-10-13T11:53:54.226989+08:00",
+  "fetched_at": "2026-10-13T12:04:42.939875+08:00",
   "slot": {
-    "index": 1,
-    "label": "08:00-12:00",
-    "start": "08:00",
-    "end": "12:00"
+    "index": 2,
+    "label": "12:00-16:00",
+    "start": "12:00",
+    "end": "16:00"
   },
   "items": [
     {
       "slot": 1,
-      "name": "紫莲刚玉",
-      "price_text": "1000",
-      "price_value": 1000,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1791864000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png"
-    },
-    {
-      "slot": 2,
-      "name": "毒系粉尘",
-      "price_text": "500",
-      "price_value": 500,
-      "limit_text": "限购100",
-      "limit_value": 100,
-      "end_timestamp": 1791864000,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/4/41/qgthc06nxeq4r9tzejgwwox7qtqp86w.png/100px-100133.png"
+      "name": "魔力果",
+      "price_text": "6000",
+      "price_value": 6000,
+      "limit_text": "限购20",
+      "limit_value": 20,
+      "end_timestamp": 1791878400,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
     }
   ]
 }
