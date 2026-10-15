@@ -1,7 +1,7 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-10-13T19:12:13.727913+08:00",
+  "fetched_at": "2026-10-15T16:35:41.026323+08:00",
   "slot": {
     "index": 3,
     "label": "16:00-20:00",
@@ -16,18 +16,8 @@
       "price_value": 1000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1791892800,
+      "end_timestamp": 1792065600,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/b/bc/khe20j8lwkt1bg9g4b0gbnsff48g93c.png/100px-100628.png"
-    },
-    {
-      "slot": 2,
-      "name": "魔力果",
-      "price_text": "6000",
-      "price_value": 6000,
-      "limit_text": "限购20",
-      "limit_value": 20,
-      "end_timestamp": 1791892800,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
     }
   ]
 }
