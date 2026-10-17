@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-10-17T16:02:32.773555+08:00",
+  "fetched_at": "2026-10-17T20:07:23.961117+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 4,
+    "label": "20:00-24:00",
+    "start": "20:00",
+    "end": "24:00"
   },
   "items": [
     {
@@ -21,13 +21,43 @@
     },
     {
       "slot": 2,
-      "name": "火系血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1792238400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/5/58/qcen9i07u68symzdrga5qcli2wq6ws3.png/100px-Xuemai_huo.png"
+      "name": "黄石榴石",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1792252800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png"
+    },
+    {
+      "slot": 3,
+      "name": "黄石榴石",
+      "price_text": "1000",
+      "price_value": 1000,
+      "limit_text": "限购100",
+      "limit_value": 100,
+      "end_timestamp": 1792252800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png"
+    },
+    {
+      "slot": 4,
+      "name": "魔力果",
+      "price_text": "6000",
+      "price_value": 6000,
+      "limit_text": "限购20",
+      "limit_value": 20,
+      "end_timestamp": 1792252800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
+    },
+    {
+      "slot": 5,
+      "name": "魔力果",
+      "price_text": "6000",
+      "price_value": 6000,
+      "limit_text": "限购20",
+      "limit_value": 20,
+      "end_timestamp": 1792252800,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
     }
   ]
 }
