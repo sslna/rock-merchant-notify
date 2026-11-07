@@ -1,12 +1,12 @@
 {
   "source": "onebiji_html",
   "source_url": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetched_at": "2026-11-06T19:31:43.985756+08:00",
+  "fetched_at": "2026-11-07T11:12:55.495434+08:00",
   "slot": {
-    "index": 3,
-    "label": "16:00-20:00",
-    "start": "16:00",
-    "end": "20:00"
+    "index": 1,
+    "label": "08:00-12:00",
+    "start": "08:00",
+    "end": "12:00"
   },
   "items": [
     {
@@ -16,28 +16,18 @@
       "price_value": 3000,
       "limit_text": "限购100",
       "limit_value": 100,
-      "end_timestamp": 1793980800,
+      "end_timestamp": 1794067200,
       "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png"
     },
     {
       "slot": 2,
-      "name": "奇异血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1793966400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/a/ab/eg7zj03u487p1l3f91z499w1nxdzac1.png/100px-Xuemai_qiyixuemai.png"
-    },
-    {
-      "slot": 3,
-      "name": "幻系血脉秘药",
-      "price_text": "16w",
-      "price_value": 160000,
-      "limit_text": "限购3",
-      "limit_value": 3,
-      "end_timestamp": 1793966400,
-      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/f/f5/osnobm6foxcvyf5t5304fz3ozr2w8cp.png/100px-Xuemai_huan.png"
+      "name": "魔力果",
+      "price_text": "6000",
+      "price_value": 6000,
+      "limit_text": "限购20",
+      "limit_value": 20,
+      "end_timestamp": 1794024000,
+      "image_url": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png"
     }
   ]
 }
